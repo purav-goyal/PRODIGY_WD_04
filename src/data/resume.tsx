@@ -61,6 +61,14 @@ export const DATA = {
             logoUrl: "/navodaya_school.png",
             start: "",
             end: "",
+        },
+        {
+            school: "Guru Jambheshwar University, Hisar",
+            href: "https://www.gjust.ac.in/",
+            degree: "XII",
+            logoUrl: "/gjust.png",
+            start: "",
+            end: "",
         }
     ],
     projects: [
