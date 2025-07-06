@@ -2,11 +2,11 @@ import {Icons} from "@/components/icons";
 import {HomeIcon} from "lucide-react";
 
 export const DATA = {
-    name: "Anmol Rohilla",
-    initials: "AR",
-    url: "https://anmol-portfolio.vercel.app",
-    location: "Mahem, Haryana",
-    locationLink: "https://maps.app.goo.gl/yaWVnV9rtiMJJvzMA",
+    name: "Purav Goyal",
+    initials: "PG",
+    url: "https://purav-goyal-portfolio.vercel.app",
+    location: "Fatehabad, Haryana",
+    locationLink: "",
     description: "A web and mobile application developer based in India. Building useful apps and websites since 2023.",
     summary: "At the heart of my projects lies the fundamental principle of human centricity: a steadfast commitment to " +
         "understanding the individuals who will ultimately engage with my creations. Every step of the way, I meticulously" +
@@ -26,26 +26,26 @@ export const DATA = {
         {href: "/", icon: HomeIcon, label: "Home"}
     ],
     contact: {
-        email: "rohillaanmol2411@gmail.com",
-        tel: "+91 72066 52471",
+        email: "puravgoyal2018@gmail.com",
+        tel: "+91 95883 48758",
         social: {
             GitHub: {
                 name: "GitHub",
-                url: "https://github.com/anmol2411",
+                url: "https://github.com/purav-goyal",
                 icon: Icons.github,
 
                 navbar: true,
             },
             LinkedIn: {
                 name: "LinkedIn",
-                url: "https://www.linkedin.com/in/anmol-rohilla-647785360?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                url: "https://www.linkedin.com/in/purav-goyal-0a1013293/",
                 icon: Icons.linkedin,
 
                 navbar: true,
             },
             Email: {
                 name: "Send Email",
-                url: "mailto:rohillaanmol2411@gmail.com",
+                url: "mailto:puravgoyal2018@gmail.com",
                 icon: Icons.email,
 
                 navbar: true,
@@ -55,26 +55,18 @@ export const DATA = {
 
     education: [
         {
-            school: "Model School, Meham",
-            href: "https://modelschoolmeham.com/",
-            degree: "Xth",
-            logoUrl: "/model_school.png",
+            school: "Jawahar Navodaya Vidyalaya, Fatehabad",
+            href: "https://cbseitms.rcil.gov.in/nvs",
+            degree: "XII",
+            logoUrl: "/navodaya_school.png",
             start: "",
             end: "",
-        },
-        {
-            school: "HD Senior Secondary School, Mahem",
-            href: "https://hdpskheri.com/",
-            degree: "Matriculation",
-            logoUrl: "/hd_school.png",
-            start: "",
-            end: "",
-        },
+        }
     ],
     projects: [
         {
             title: "Weather App",
-            href: "https://weather-anmol.vercel.app/",
+            href: "https://purav-weather.vercel.app/",
             active: true,
             description:
                 "A weather application build using ShadCN components. It fetches weather data from https://www.weatherapi.com/",
@@ -87,12 +79,12 @@ export const DATA = {
             links: [
                 {
                     type: "Website",
-                    href: "https://weather-anmol.vercel.app/",
+                    href: "https://purav-weather.vercel.app/",
                     icon: <Icons.globe className="size-3"/>,
                 },
                 {
                     type: "Source",
-                    href: "https://github.com/anmol2411/PRODIGY_WD_05",
+                    href: "https://github.com/purav-goyal/PRODIGY_WD_05",
                     icon: <Icons.github className="size-3"/>,
                 },
             ],
@@ -100,7 +92,7 @@ export const DATA = {
         },
         {
             title: "Stopwatch App",
-            href: "https://stopwatch-anmol.vercel.app/",
+            href: "https://purav-stopwatch.vercel.app/",
             active: true,
             description:
                 "A stopwatch app build using ShadCN components and NextJS framework.",
@@ -113,12 +105,12 @@ export const DATA = {
             links: [
                 {
                     type: "Website",
-                    href: "https://stopwatch-anmol.vercel.app/",
+                    href: "https://purav-stopwatch.vercel.app/",
                     icon: <Icons.globe className="size-3"/>,
                 },
                 {
                     type: "Source",
-                    href: "https://github.com/anmol2411/PRODIGY_WD_02",
+                    href: "https://github.com/purav-goyal/PRODIGY_WD_02",
                     icon: <Icons.github className="size-3"/>,
                 },
             ],
