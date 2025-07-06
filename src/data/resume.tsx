@@ -65,10 +65,10 @@ export const DATA = {
         {
             school: "Guru Jambheshwar University, Hisar",
             href: "https://www.gjust.ac.in/",
-            degree: "XII",
+            degree: "B.Tech",
             logoUrl: "/gjust.png",
-            start: "",
-            end: "",
+            start: "2023",
+            end: "2027",
         }
     ],
     projects: [
